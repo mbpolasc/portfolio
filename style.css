@@ -3,12 +3,32 @@
   background-color: black;
   background-size: cover;
   min-height: 500px;
+  position: relative;
+}
+
+.background-dark::before {
+  content: '';
+  background: rgba(0,0,0,.5);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 
 header {
-  color: white
+  color: white;
+  position: relative;
 }
 
-.website {
-  width: 80%
+header h1 {
+  font-family: 'Pacifico', cursive;
+}
+
+.websites {
+  width: 80%;
+}
+
+a i {
+  color: black;
 }
